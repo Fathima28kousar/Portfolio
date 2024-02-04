@@ -62,7 +62,7 @@ const Hero = () => {
             Frontend Backend FullStack
         </motion.div>
         <div className={styles.imageContainer}>
-            <img src='/images/hero.png' alt='hero' height='600px' />
+            <img src='/images/girl.png' alt='hero' height='600px' />
         </div>
     </div>
   )

@@ -23,3 +23,17 @@
         }
     }
 }
+
+@media(max-width:576px){
+    
+}
+
+
+@media (max-width: 738px){
+    span{
+        display:none;
+    }
+    .wrapper{
+        padding-left: 200px;
+    }
+}

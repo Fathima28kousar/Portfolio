@@ -6,3 +6,9 @@
     position: fixed;
     z-index: 999;
 }
+
+@media (max-width: 738px){
+    .cursor{
+        display:none;
+    }
+}

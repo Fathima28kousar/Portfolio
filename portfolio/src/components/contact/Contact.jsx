@@ -47,15 +47,15 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let's Work Together</motion.h1>
         <motion.div className={styles.item} variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <h5>hello@react.dev</h5>
         </motion.div>
         <motion.div className={styles.item} variants={variants}>
           <h2>Address</h2>
-          <span>Hello street NewYork</span>
+          <h5>Hello street NewYork</h5>
         </motion.div>
         <motion.div className={styles.item} variants={variants}>
           <h2>Phone</h2>
-          <span>+1234 56789</span>
+          <h5>+1234 55789</h5>
         </motion.div>
       </motion.div>
       <motion.div className={styles.formContainer}>

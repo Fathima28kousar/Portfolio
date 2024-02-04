@@ -52,9 +52,28 @@
         position: absolute;
         z-index: 1;
 
+    }    
+}
+
+@media (max-width:738px){
+    .parallax{
+        h1{
+            font-size: 72px;
+            text-align: center;
+        }
+        .mountains{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .planets{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .sun{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
-       
-        
-        
-    
 }

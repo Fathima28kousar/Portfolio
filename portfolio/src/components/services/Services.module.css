@@ -88,7 +88,65 @@
     }
 }
 
+@media (max-width:738px){
+    .services{
+        .textContainer{
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
 
+            hr{
+                width: 300px;
+            }
+        }
+        .titleContainer{
+            width: 100%;
+
+            .title{
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+
+                img{
+                    width: 200px;
+                    height: 50px;
+                }
+
+                h1{
+                    font-size: 36px;
+                }
+                button{
+                    font-size: 16px;
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+        }
+        .listContainer{
+            flex-direction:column;
+            width: 100%;
+
+            .box{
+                border:none;
+                align-items: center;
+                gap:20px;
+                padding:10px;
+
+                p{
+                    display:none;
+                }
+                button{
+                    background-color: transparent;
+                    border: 1px solid orange;
+                    border-radius: 5px;
+                    color: orange;
+                    width: 50%;
+                    padding:5px;
+                }
+            }
+        }
+    }
+}
 
 
 
