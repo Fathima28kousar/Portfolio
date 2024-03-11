@@ -10,12 +10,12 @@ const Navbar = () => {
             initial={{opacity:0,scale:0.5}}
             animate={{opacity:1,scale:1}}
             transition={{duration:0.5}}
-        >Lama Dev</motion.span>
+        >Portfolio</motion.span>
         <div className={styles.social}>
-            <a href='##'> <img src='/images/facebook.png' alt=''/> </a>
-            <a href='##'> <img src='/images/instagram.png' alt=''/> </a>
-            <a href='##'> <img src='/images/youtube.png' alt=''/> </a>
-            <a href='##'> <img src='/images/dribbble.png' alt=''/> </a>
+            <a href='##'> <img src='/images/facebook.png' alt='facebook'/> </a>
+            <a href='##'> <img src='/images/instagram.png' alt='instagram'/> </a>
+            <a href='##'> <img src='/images/youtube.png' alt='youtube'/> </a>
+            <a href='##'> <img src='/images/dribbble.png' alt='dribbble'/> </a>
         </div>
       </div>
     </div>

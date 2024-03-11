@@ -36,7 +36,6 @@ const sliderVariants = {
             repeatType:'mirror'  //coming and going
         }
     },
-    
 }
 
 const Hero = () => {

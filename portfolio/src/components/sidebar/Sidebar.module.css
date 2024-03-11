@@ -10,7 +10,7 @@
         z-index: 999;
         position: fixed;
         top: 0;
-        left:0;
+        left:-10px;
         bottom:0;
         width: 400px;
         background:white;

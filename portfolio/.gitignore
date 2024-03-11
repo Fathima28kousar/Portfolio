@@ -27,3 +27,7 @@ yarn-error.log*
 .package-lock.json 
 .package.json 
 .README.md
+
+package-lock.json 
+package.json 
+README.md

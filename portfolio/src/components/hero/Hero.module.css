@@ -14,37 +14,39 @@
             height: 100%;
             display: flex;
             justify-content: center;
-            gap: 40px;
+            gap: 30px;
             flex-direction: column;
-        }
+            
 
-        h2{
-            font-size: 25px;
-            color: rebeccapurple;
-            letter-spacing: 10px;
-            line-height: 5px;
-        }
+            .buttons {
+                display: flex;
+                gap: 20px;
+                button{
+                    cursor: pointer;
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color:white;
+                    font-weight: 300;
+                }
+            }
 
-        h1 {
-            font-size: 65px;
-        }
-
-        .buttons {
-            display: flex;
-            gap: 20px;
-            button{
-                padding: 20px;
-                border: 1px solid white;
-                border-radius: 10px;
-                background-color: transparent;
-                color:white;
-                cursor: pointer;
-                font-weight: 300;
+            h2{
+                font-size: 25px;
+                color: rebeccapurple;
+                letter-spacing: 10px;
+                line-height: 5px;
+            }
+    
+            h1 {
+                font-size: 65px;
             }
         }
 
         img {
             width: 50px;
+            cursor: pointer;
         }
     }
 
@@ -63,6 +65,7 @@
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
+        pointer-events: none;
     }
 }
 
@@ -79,16 +82,16 @@
             }
         }
 
-        .imageContainer{
-            /* text-align: center;
+        /* .imageContainer{
+            text-align: center;
             background-color: pink;
             height: 100%;
             width: 100%;
             img{
                 height: 140%;
                 width: 60%;
-            } */
-        }
+            }
+        } */
     }
 }
 
@@ -125,3 +128,4 @@
 
     }
 }
+

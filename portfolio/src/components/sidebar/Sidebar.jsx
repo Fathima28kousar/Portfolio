@@ -4,7 +4,6 @@ import Links from './links/Links'
 import ToggleButton from './toggleButton/ToggleButton'
 import {motion} from 'framer-motion'
 
-
 const variants = {
   open:{
       clipPath: 'circle(1200px at 50px 50px)',
@@ -14,15 +13,16 @@ const variants = {
       }
   },
   closed:{
-      clipPath: 'circle(30px at 50px 50px)',
+      clipPath: 'circle(30px at 50px 50px)', //30px is radius and 50px is x and y axis
       transition:{
-          delay: 0.5,
-          type:'spring',
-          stiffness: 400,   //we cannot use duration so use stiffness
-          damping: 40
+        delay: 0.5,
+        type:'spring',
+        stiffness: 400,   //we cannot use duration so use stiffness
+        damping: 40
       }
   }
 }
+
 const Sidebar = () => {
   const [open,setOpen] = useState(false)
   
