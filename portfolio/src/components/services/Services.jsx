@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const variants = {
   initial: {
-    x:-500,
+    x:-150,
     y: 100,
     opacity: 0,
   },
@@ -46,7 +46,7 @@ const Services = ({ index }) => {
             <motion.b whileHover={{ color: "orange" }}>FullStack</motion.b>{" "}
             Developer
           </h1>
-          <button>WHAT WE DO</button>
+          <button>ABOUT ME</button>
         </div>
       </motion.div>
       <motion.div className={styles.listContainer} variants={variants}>
@@ -55,57 +55,23 @@ const Services = ({ index }) => {
           variants={variants}
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
             eveniet minus voluptatem! At totam consequatur provident mollitia
             reiciendis odit porro vero maxime quaerat, suscipit earum placeat
+            consectetur iste, quos harum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+            eveniet minus voluptatem! At totam consequatur provident mollitia
+            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
+            consectetur iste, quos harum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+            eveniet minus voluptatem! At totam consequatur provident mollitia
+            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
             consectetur iste, quos harum.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
-        <motion.div
-          className={styles.box}
-          variants={variants}
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            eveniet minus voluptatem! At totam consequatur provident mollitia
-            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
-            consectetur iste, quos harum.
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className={styles.box}
-          variants={variants}
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            eveniet minus voluptatem! At totam consequatur provident mollitia
-            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
-            consectetur iste, quos harum.
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className={styles.box}
-          variants={variants}
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            eveniet minus voluptatem! At totam consequatur provident mollitia
-            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
-            consectetur iste, quos harum.
-          </p>
-          <button>Go</button>
-        </motion.div> 
+       
+        
+        
         
       </motion.div>
     </motion.div>

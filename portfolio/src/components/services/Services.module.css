@@ -38,7 +38,7 @@
             display: flex;
             gap: 50px;
             align-items: center;
-            
+            white-space: nowrap;
 
             img{
                 width:300px;
@@ -47,7 +47,7 @@
                 object-fit: cover;
             }
             h1 {
-                font-size: 50px;
+                font-size: 75px;
                 font-weight: 100
             }
 
@@ -72,10 +72,16 @@
         
         .box {
             padding: 30px;
-            border: 0.5px solid gray;
+            border: none;
+            border-radius: 10px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            height: 85%;
+
+            p{
+                font-size: 20px;
+            }
 
             button{
                 padding: 10px;
@@ -88,28 +94,74 @@
     }
 }
 
-@media (max-width:738px){
+@media(max-width: 1200px){
     .services{
         .textContainer{
-            align-self: center;
-            text-align: center;
-            flex-direction: column;
+            gap: 15px;
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+            hr{
+                width: 400px;
+            }
+        }
+        .titleContainer{
+            .title{
+                gap: 15px;
+                h1{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
 
+@media(max-width: 921px){
+    .services{
+        .textContainer{
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
             hr{
                 width: 300px;
             }
         }
         .titleContainer{
+            .title{
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+        .listContainer{
+            .box{
+                height: unset;
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .services{
+        padding: 0 20px;
+        .textContainer{
+            display: none;
+        }
+        .titleContainer{
             width: 100%;
+            padding-top: 10px;
+            margin-bottom: 35px;
 
             .title{
                 flex-direction: column;
                 text-align: center;
-                gap: 30px;
+                width: 100%;
 
                 img{
-                    width: 200px;
-                    height: 50px;
+                    width: 80%;
+                    height: 150px;
                 }
 
                 h1{
@@ -125,16 +177,19 @@
         .listContainer{
             flex-direction:column;
             width: 100%;
+            margin : 10px 0;
 
             .box{
                 border:none;
                 align-items: center;
                 gap:20px;
-                padding:10px;
+                padding: 10px;
 
                 p{
-                    display:none;
+                    font-size: 18px;
+                    overflow-wrap: break-word;
                 }
+
                 button{
                     background-color: transparent;
                     border: 1px solid orange;
@@ -148,5 +203,75 @@
     }
 }
 
+@media(max-width: 576px){
+    .services{
+        .titleContainer{
+            margin-bottom: 20px;
 
+                .title{
+                    gap: 10px;
+                    h1{
+                        font-size: 30px;
+                    }
+                    img{
+                        height: 150px;
+                    }
+    
+                }
+        }
+        .listContainer{
+            .box{
+                gap: 10px;
+                padding: 5px ;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
 
+@media(max-width: 380px){
+    .services{
+        .titleContainer{
+            margin-bottom: 0;
+
+                .title{
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+        }
+        .listContainer{
+            .box{
+                gap: 10px;
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 280px){
+    .services{
+        overflow: hidden;
+        .titleContainer{
+                .title{
+
+                    h1{
+                        font-size: 24px;
+                        white-space: wrap;
+                    }
+                }
+        }
+        .listContainer{
+            .box{
+                gap: 10px;
+                p{
+                    font-size: 14.5px;
+                }
+            }
+        }
+    }
+}
