@@ -59,16 +59,16 @@ const Contact = () => {
         </motion.div>
       </motion.div>
       <motion.div className={styles.formContainer}>
-        <motion.div className={styles.phoneSvg} 
+        {/* <motion.div className={styles.phoneSvg} 
         initial={{opacity:1}} 
         whileInView={{opacity:0}} 
         transition={{ delay: 2, duration: 1}}>
           
           <svg width="450px" height="450px" viewBox="0 0 24 24" fill="none" 
           xmlns="http://www.w3.org/2000/svg">
-          <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-          <g id="SVGRepo_iconCarrier"> <path d="M13.5 2C13.5 2 15.8335 2.21213 18.8033 5.18198C21.7731 8.15183 21.9853 10.4853 21.9853 10.4853" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/> <path d="M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>  
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
+          <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"/>
+          <g id="SVGRepo_iconCarrier"> <path d="M13.5 2C13.5 2 15.8335 2.21213 18.8033 5.18198C21.7731 8.15183 21.9853 10.4853 21.9853 10.4853" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round"/> <path d="M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round"/>  
           <motion.path 
             strokeWidth={0.2}
             initial = {{pathLength:0}}
@@ -78,7 +78,7 @@ const Contact = () => {
 
           </svg>
           
-        </motion.div>
+        </motion.div> */}
         <motion.form
         ref={formRef}
         initial={{opacity:0}} 

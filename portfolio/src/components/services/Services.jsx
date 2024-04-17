@@ -38,13 +38,13 @@ const Services = ({ index }) => {
         <div className={styles.title}>
           <img src="/images/people.jpg" alt="people" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Collaborative </motion.b> Innovator
           </h1>
         </div>
         <div className={styles.title}>
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For your</motion.b>{" "}
-            Business
+            <motion.b whileHover={{ color: "orange" }}>FullStack</motion.b>{" "}
+            Developer
           </h1>
           <button>WHAT WE DO</button>
         </div>

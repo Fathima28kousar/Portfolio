@@ -47,13 +47,16 @@ const Hero = () => {
             variants={textVariants}
             initial='initial'
             animate='animate'>
-                <motion.h2 variants={textVariants}>HARVEY TYLER</motion.h2>
-                <motion.h1 variants={textVariants}>Web developer and UI designer</motion.h1>
+                <motion.h2 variants={textVariants}>FATHIMA KOUSAR</motion.h2>
+                <motion.h1 variants={textVariants}>Full Stack Web Developer</motion.h1>
                 <motion.div variants={textVariants} className={styles.buttons}>
                     <button>See the latest Works</button>
                     <button>Contact Me</button>
                 </motion.div>
-                <motion.img variants={textVariants} animate='scrollButton'  src='/images/scroll.png' alt='scroll'/>
+                <motion.img variants={textVariants} 
+                className={styles.scrollImage}
+                animate='scrollButton'  
+                src='/images/scroll.png' alt='scroll'/>
             </motion.div>
         </div>
 
@@ -61,7 +64,7 @@ const Hero = () => {
             Frontend Backend FullStack
         </motion.div>
         <div className={styles.imageContainer}>
-            <img src='/images/girl.png' alt='hero' height='600px' />
+            <img src='/images/girl.png' alt='hero'  />
         </div>
     </div>
   )
