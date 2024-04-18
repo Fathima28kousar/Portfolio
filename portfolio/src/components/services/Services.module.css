@@ -207,7 +207,6 @@
     .services{
         .titleContainer{
             margin-bottom: 20px;
-
                 .title{
                     gap: 10px;
                     h1{
@@ -237,6 +236,10 @@
             margin-bottom: 0;
 
                 .title{
+                    img{
+                        width: 100%;
+                        height: 150px;
+                    }
                     h1{
                         font-size: 24px;
                     }
@@ -246,7 +249,7 @@
             .box{
                 gap: 10px;
                 p{
-                    font-size: 15px;
+                    font-size: 14.5px;
                 }
             }
         }
@@ -258,18 +261,18 @@
         overflow: hidden;
         .titleContainer{
                 .title{
-
                     h1{
                         font-size: 24px;
                         white-space: wrap;
                     }
+                   
                 }
         }
         .listContainer{
             .box{
                 gap: 10px;
                 p{
-                    font-size: 14.5px;
+                    font-size: 14px;
                 }
             }
         }

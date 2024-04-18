@@ -46,14 +46,14 @@ const Single = ({item}) => {
         <section >
             <div className={styles.container}>
                <div className={styles.wrapper}>
-                <div className={styles.imageContainer} ref={ref}>
-                <img src={item.img} alt=''/>
-                </div>
-                <motion.div className={styles.textContainer} style={{y}}> 
-                    <h2>{item.title}</h2>
-                    <p>{item.desc}</p>
-                    <button>See Demo</button>
-                </motion.div>
+                    <div className={styles.imageContainer} ref={ref}>
+                        <img src={item.img} alt=''/>
+                    </div>
+                    <motion.div className={styles.textContainer} style={{y}}> 
+                        <h2>{item.title}</h2>
+                        <p>{item.desc}</p>
+                        <button>See Demo</button>
+                    </motion.div>
               </div>
                 
             </div>
@@ -76,7 +76,7 @@ const Portfolio = () => {
   return (
     <div className={styles.portfolio} ref={ref}>
         <div className={styles.progress}>
-            <h1>Featured Works</h1>
+            <h1>My Projects</h1>
             <motion.div className={styles.progressBar} style={{scaleX}}></motion.div>
         </div>
         {items.map(item =>(
