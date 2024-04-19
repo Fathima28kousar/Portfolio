@@ -118,6 +118,7 @@
 
 @media (max-width:768px){
     .portfolio{
+        padding: 10px;
         .progress{
             padding-top: calc(100vh - 100px);
             h1{
@@ -145,6 +146,51 @@
                         font-size: 36px;
                     }
 
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+    .portfolio{
+        .container{
+            .wrapper{
+                .textContainer{
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 380px){
+    .portfolio{
+        .progress{
+            padding-top: calc(100vh - 70px);
+
+            h1{
+                font-size: 25px;
+            }
+        }
+        .container{
+            .wrapper{
+                .textContainer{
+
+                    h2{
+                        white-space: wrap;
+                        font-size: 25px;
+                    }
+                    gap: 8px;
+                    button{
+                        width: 150px;
+                        padding: 8px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
                 }
             }
         }

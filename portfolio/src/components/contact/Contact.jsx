@@ -1,7 +1,8 @@
 import styles from './Contact.module.css'
-import {motion, useInView} from 'framer-motion'
+import {motion} from 'framer-motion'
 import {useRef,useState} from 'react'
 import emailjs from '@emailjs/browser';
+import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const variants ={
   initial:{
@@ -20,7 +21,7 @@ const variants ={
 const Contact = () => {
   const ref = useRef();
   const formRef = useRef()
-  const isInView = useInView(ref,{margin: '-100px'})
+  // const isInView = useInView(ref,{margin: '-100px'})
   const [error,setError] = useState(false)
   const [success,setSuccess] = useState(false)
 
@@ -44,21 +45,19 @@ const Contact = () => {
     initial='initial' 
     whileInView='animate'>
       <motion.div className={styles.textContainer} variants={variants}>
-        <motion.h1 variants={variants}>Let's Work Together</motion.h1>
-        <motion.div className={styles.item} variants={variants}>
-          <h2>Mail</h2>
-          <h5>hello@react.dev</h5>
-        </motion.div>
-        <motion.div className={styles.item} variants={variants}>
-          <h2>Address</h2>
-          <h5>Hello street NewYork</h5>
-        </motion.div>
-        <motion.div className={styles.item} variants={variants}>
-          <h2>Phone</h2>
-          <h5>+1234 55789</h5>
-        </motion.div>
+        <motion.h1 variants={variants}>Contact Me</motion.h1>
       </motion.div>
+      
       <motion.div className={styles.formContainer}>
+
+        {/* <motion.div className={styles.logo}
+        initial={{opacity:1}} 
+        whileInView={{opacity:0}} 
+        transition={{ delay: 2, duration: 1}}> */}
+
+          <FaTwitter/>
+        {/* </motion.div> */}
+
         {/* <motion.div className={styles.phoneSvg} 
         initial={{opacity:1}} 
         whileInView={{opacity:0}} 
@@ -79,16 +78,20 @@ const Contact = () => {
           </svg>
           
         </motion.div> */}
+
         <motion.form
         ref={formRef}
         initial={{opacity:0}} 
         whileInView={{opacity:1}} 
         transition={{ delay: 3, duration: 1}}
         onSubmit={sendEmail}
-        >
+        > 
+          <label>Name</label>
           <input type="text" required placeholder='Name' name='name'/>
+          <label>Email</label>
           <input type="email" required placeholder='Email' name='email' />
-          <textarea rows={8} placeholder='Message' name='message'/>
+          <label>Message</label>
+          <textarea rows={8} placeholder='Your Message' name='message'/>
           <button>Submit</button>
           {error && 'Error'}
           {success && 'Success'}
