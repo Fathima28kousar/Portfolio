@@ -31,13 +31,6 @@
         width: 50%;
         height: 80%;
 
-        .phoneSvg{
-            stroke: orange;
-            position: absolute;
-            margin: auto;
-            z-index: -1;
-        }
-
         form {
         display: flex;
         flex-direction: column;
@@ -50,21 +43,23 @@
         input,textarea{
             padding: 10px;
             background-color: transparent;
-            border: 1px solid white;
+            border: 1px solid orange;
             color: white;
             border-radius: 5px;
             font-size: 16px;
             margin-bottom: 10px;
         }
 
+
         button{
             padding: 16px;
-            border: none;
-            background-color: rgb(255, 176, 30);
+            border: 1px solid white;
+            background-color: transparent;
             cursor: pointer;
             font-weight: 700;
             border-radius: 5px;
             font-size: 16px;
+            color: #fff;
         }
         button:hover{
             color: #fff;
