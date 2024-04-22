@@ -38,12 +38,12 @@ const Services = ({ index }) => {
         <div className={styles.title}>
           <img src="/images/people.jpg" alt="people" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Collaborative </motion.b> Innovator
+            <b>Collaborative </b> Innovator
           </h1>
         </div>
         <div className={styles.title}>
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>FullStack</motion.b>{" "}
+            <b>FullStack</b>{" "}
             Developer
           </h1>
           <button>ABOUT ME</button>
@@ -53,7 +53,6 @@ const Services = ({ index }) => {
         <motion.div
           className={styles.box}
           variants={variants}
-          whileHover={{ background: "lightgray", color: "black" }}
         >
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
@@ -67,11 +66,7 @@ const Services = ({ index }) => {
             reiciendis odit porro vero maxime quaerat, suscipit earum placeat
             consectetur iste, quos harum.
           </p>
-          {/* <button>Go</button> */}
         </motion.div>
-       
-        
-        
         
       </motion.div>
     </motion.div>

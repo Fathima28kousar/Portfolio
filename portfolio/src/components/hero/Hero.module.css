@@ -36,7 +36,7 @@
 
             h2{
                 font-size: 25px;
-                color: rebeccapurple;
+                color: #c009d9;
                 letter-spacing: 8px;
                 line-height: 5px;
             }
@@ -167,11 +167,16 @@
         padding: 0 10px;
         .wrapper{
             .textContainer{
+                justify-content: flex-start;
+                padding-top: 50px;
                 h1{
                     font-size: 25px;
                 }
                 h2{
                     font-size: 20px;
+                }
+                img{
+                    display: none;
                 }
             }
         }

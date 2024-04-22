@@ -2,6 +2,9 @@ import styles from "./Contact.module.css";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+// import swal from "sweetalert";
+
+
 const variants = {
   initial: {
     y: 500,
@@ -23,7 +26,7 @@ const Contact = () => {
   const [success, setSuccess] = useState(false);
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     emailjs
       .sendForm(
@@ -35,6 +38,8 @@ const Contact = () => {
       .then(
         (result) => {
           setSuccess(true);
+          // swal("Success", "Your message has been sent!", "success");
+          // formRef.current.reset();
         },
         (error) => {
           setError(true);
@@ -70,7 +75,7 @@ const Contact = () => {
           <textarea rows={8} placeholder="Your Message" name="message" />
           <button>Submit</button>
           {error && "Error"}
-          {success && "Success"}
+          {success}
         </motion.form>
       </motion.div>
     </motion.div>

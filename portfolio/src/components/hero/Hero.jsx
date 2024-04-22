@@ -16,7 +16,7 @@ const textVariants = {
     },
     scrollButton:{
         opacity:0,
-        y: 10,
+        y: 10,  
         transition:{
             duration:2,
             repeat:Infinity
@@ -38,7 +38,9 @@ const sliderVariants = {
     },
 }
 
+
 const Hero = () => {
+   
   return (
     <div className={styles.hero}>
         <div className={styles.wrapper}>

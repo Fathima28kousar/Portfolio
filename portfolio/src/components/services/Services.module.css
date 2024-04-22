@@ -51,6 +51,10 @@
                 font-weight: 100
             }
 
+            b:hover{
+                color: orange;
+            }
+
             button {
                 width: 300px;
                 height: 100px;
@@ -82,14 +86,11 @@
             p{
                 font-size: 20px;
             }
+        }
 
-            button{
-                padding: 10px;
-                background-color: orange;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
+        .box:hover{
+            background-color: lightgray;
+            color: black;
         }
     }
 }
