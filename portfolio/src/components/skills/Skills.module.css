@@ -1,0 +1,164 @@
+.Container{
+    h2{
+        text-align: center;
+        padding: 50px 0;
+        font-size: 50px;
+        color: orange;
+    }
+    .Skills{
+        width: 100%;
+        max-height: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 45px;
+            
+        .flipCard{
+            perspective: 1000px;
+            width: 150px;
+            height: 100px;
+            text-align: center;
+    
+            .flipCardInner{
+                width: 100%;
+                height: 100%;
+                transition: transform 0.3s;
+                transform-style: preserve-3d ;
+    
+                .flipCardFront{
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid white;
+                    color: white;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                    
+                }
+    
+                .flipCardBack{
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid white;
+                    color: white;
+                    padding: 10px;
+                    transform: rotateY(180deg);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+    
+                .flipCardBack,.flipCardFront{
+                    position: absolute;
+                    border-radius: 10px;
+                    backface-visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .Container{
+        h2{
+            font-size: 40px;
+            padding: 30px 0;
+        }
+        .Skills{
+            gap: 30px;
+        }
+    }
+}
+
+@media(max-width: 580px){
+    .Container{
+        .Skills{
+            gap: 24px;
+            
+            .flipCard{
+                width: 120px;
+                height: 100px;
+                .flipCardInner{
+                    .flipCardBack{
+                        h1{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 480px){
+    .Container{
+        h2{
+            font-size: 36px;
+            padding: 15px 0;
+        }
+        .Skills{
+            gap: 15px;
+            padding: 30px 10px;
+
+            .flipCard{
+                width: 110px;
+                height: 80px;
+                .flipCardInner{
+                    .flipCardBack{
+                        h1{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 386px){
+    .Container{
+        h2{
+            font-size: 25px;
+            padding-top: 20px;
+        }
+        .Skills{
+            gap: 15px;
+            padding: 20px;
+            .flipCard{
+                width: 100px;
+                height: 70px;
+            }
+        }
+    }
+}
+
+@media(max-width: 280px){
+    .Container{
+        overflow-y: hidden;
+        max-height: 100vh; 
+        h2{
+            padding-top: 20px;
+        }
+        .Skills{
+            gap: 10px;
+            padding: 10px;
+            .flipCard{
+                width: 100px;
+                height: 70px;
+                
+            }
+        }
+    }
+}
+

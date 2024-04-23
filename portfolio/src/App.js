@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
+import Skills from './components/skills/Skills'
 // import Parallax from './components/parallax/Parallax'
 // import {BrowserRouter,Route,Switch} from 'react-router-dom'
 
@@ -13,13 +14,7 @@ import Services from './components/services/Services'
 const App = () => {
   return (
     <div>
-      {/* <Cursor/>
-      <section id='Homepage'><Navbar/> <Hero/></section>
-      <section id='Services'><Services/></section>
-      <section id='Portfolio'><Portfolio/></section>
-      <section id='Contact'><Contact/></section> */}
-      {/* <section id='Portfolio'><Parallax type='portfolio'/></section> */}
-      {/* <section id='Services'><Parallax type='services'/></section> */}
+      
 
       <Cursor/>
       <section id='Homepage'>
@@ -27,11 +22,20 @@ const App = () => {
         <Hero/>
       </section>
       <section id='Services'><Services/></section>
-      <div></div>
       <div id='Portfolio'><Portfolio/></div>
+      <section id='Skills'><Skills/></section>
       <section id='Contact'><Contact/></section>
   </div>
   )
 }
 
 export default App
+
+
+{/* <Cursor/>
+      <section id='Homepage'><Navbar/> <Hero/></section>
+      <section id='Services'><Services/></section>
+      <section id='Portfolio'><Portfolio/></section>
+      <section id='Contact'><Contact/></section> */}
+      {/* <section id='Portfolio'><Parallax type='portfolio'/></section> */}
+      {/* <section id='Services'><Parallax type='services'/></section> */}

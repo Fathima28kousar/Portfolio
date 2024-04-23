@@ -20,10 +20,6 @@
             color: #ffff;
         }
 
-        h1:hover{
-            color: orange;
-        }
-
         b{
             color: #c009d9;
             font-size: 30px;
@@ -56,6 +52,7 @@
 
 @media(max-width: 576px){
     .navbar{
+        height: 80px;
         .wrapper{
             h1{
                 display: none;

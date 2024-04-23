@@ -32,6 +32,12 @@
                     color:white;
                     font-weight: 300;
                 }
+                
+                button:hover{
+                    color: black;
+                    background-color: white;
+                }
+
             }
 
             h2{
@@ -43,6 +49,7 @@
     
             h1 {
                 font-size: 65px;
+                color: white;
             }
         }
 
@@ -142,8 +149,11 @@
 
 @media (max-width: 576px){
     .hero{
+        height: calc(100vh - 80px);
         .wrapper{
             .textContainer{
+                justify-content: flex-start;
+                padding-top: 85px;
                 h1{
                     font-size: 30px;
                 }
@@ -167,8 +177,7 @@
         padding: 0 10px;
         .wrapper{
             .textContainer{
-                justify-content: flex-start;
-                padding-top: 50px;
+                padding-top: 25px;
                 h1{
                     font-size: 25px;
                 }
@@ -177,6 +186,14 @@
                 }
                 img{
                     display: none;
+                }
+                .buttons{
+                    flex-direction: column;
+                    gap: 10px;
+                    button{
+                        padding: 10px;
+                    }
+                    
                 }
             }
         }
@@ -214,9 +231,7 @@
                 }
                 .buttons{
                     gap: 5px;
-                    button{
-                        padding: 4px;
-                    }
+                    
                 }
             }
         }
