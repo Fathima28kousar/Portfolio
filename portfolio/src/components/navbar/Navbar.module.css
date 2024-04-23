@@ -33,6 +33,7 @@
             a{
                 font-size: 20px;
                 color: #ffff;
+                transition: color ease-in 0.5s;
             }
             a:hover{
                 color: #c009d9;
