@@ -85,7 +85,6 @@
 @media(max-width: 380px){
     .navbar{
         overflow: hidden;
-        /* height: 85px; */
         padding: 10px;
         .wrapper{
             width: 100%;

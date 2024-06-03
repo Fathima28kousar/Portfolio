@@ -15,8 +15,7 @@ const textVariants = {
         }
     },
     scrollButton:{
-        opacity:0,
-        y: 10,  
+        scale: 1.2,
         transition:{
             duration:2,
             repeat:Infinity
@@ -55,10 +54,11 @@ const Hero = () => {
                     <button>Featured Works</button>
                     <button>Download CV</button>
                 </motion.div>
-                <motion.img variants={textVariants} 
-                className={styles.scrollImage}
-                animate='scrollButton'  
-                src='/images/scroll.png' alt='scroll'/>
+                <motion.div variants={textVariants} animate='scrollButton' className={styles.scrollImage}>
+                    <i className='fa fa-github'></i>
+                    <i className='fa fa-linkedin'></i>
+                    <i className='fa fa-envelope'></i>
+                </motion.div>
             </motion.div>
         </div>
 

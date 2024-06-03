@@ -14,8 +14,6 @@ import Skills from './components/skills/Skills'
 const App = () => {
   return (
     <div>
-      
-
       <Cursor/>
       <section id='Homepage'>
         <Navbar/>
@@ -30,12 +28,3 @@ const App = () => {
 }
 
 export default App
-
-
-{/* <Cursor/>
-      <section id='Homepage'><Navbar/> <Hero/></section>
-      <section id='Services'><Services/></section>
-      <section id='Portfolio'><Portfolio/></section>
-      <section id='Contact'><Contact/></section> */}
-      {/* <section id='Portfolio'><Parallax type='portfolio'/></section> */}
-      {/* <section id='Services'><Parallax type='services'/></section> */}

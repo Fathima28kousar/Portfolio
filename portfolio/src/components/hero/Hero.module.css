@@ -54,10 +54,28 @@
             }
         }
 
-        img {
-            width: 50px;
-            cursor: pointer;
+        .scrollImage{
+            display: flex;
+            gap: 5px;
+            justify-self: center;
+            align-items: center;
+            padding-left: 40px;
+
+            i{
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color: darkmagenta;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                border: 0.5px solid white;
+                font-size: 30px;
+                cursor: pointer;
+            }
         }
+
     }
 
     .imageContainer{
@@ -121,10 +139,15 @@
                 h1 {
                     font-size: 40px;
                 }
+
                 .scrollImage{
                     position: absolute;
                     top: 20px;
+                    padding-left: unset;
+
                 }
+
+
                 .buttons{
                     button{
                         padding: 14px;
@@ -168,6 +191,14 @@
                     letter-spacing: 5px;
                 }
             }
+
+            .scrollImage{
+                i{
+                    font-size: 25px;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
            
         }
     }
@@ -178,15 +209,22 @@
         padding: 0 10px;
         .wrapper{
             .textContainer{
-                padding-top: 25px;
+                padding-top: 65px;
                 h1{
                     font-size: 25px;
                 }
                 h2{
                     font-size: 20px;
                 }
-                img{
-                    display: none;
+                .scrollImage{
+                    top: 5;
+                    margin-bottom: 35px;
+                    height: 10px;
+                    i{
+                        height: 30px;
+                        width: 30px;
+                        font-size: 17px;
+                    }
                 }
                 .buttons{
                     flex-direction: column;
