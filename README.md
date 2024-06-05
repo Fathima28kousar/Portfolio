@@ -1,9 +1,15 @@
-Project Name: Portfolio
 
-Live Demo: https://fathimakousar.vercel.app/
+# Project Title
 
-Features:
-Utilized Framer Motion to create a fully responsive animation
+Porfolio project built Framer Motion to create a fully responsive animation
+
+
+## 🔗 Demo
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fathimakousar.vercel.app/)
+
+
+
+## Documentation
 
 1. Hero Section Animation: 
    Animated cartoon photo holding a laptop to engage users.
@@ -23,5 +29,9 @@ Utilized Framer Motion to create a fully responsive animation
 5. Contact Form:
     Integrated a functional contact form using emailjs.
 
-Technologies Used: React.js, Framer Motion, HTML, CSS, JavaScript.
+
+## 🛠 Skills
+React.js, Framer Motion, HTML, CSS, JavaScript.
+
+
 
