@@ -1,5 +1,5 @@
 
-# Project Title
+# Portfolio project
 
 Porfolio project built Framer Motion to create a fully responsive animation
 
