@@ -55,16 +55,7 @@ const Services = ({ index }) => {
           variants={variants}
         >
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            eveniet minus voluptatem! At totam consequatur provident mollitia
-            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
-            consectetur iste, quos harum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            eveniet minus voluptatem! At totam consequatur provident mollitia
-            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
-            consectetur iste, quos harum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
-            eveniet minus voluptatem! At totam consequatur provident mollitia
-            reiciendis odit porro vero maxime quaerat, suscipit earum placeat
-            consectetur iste, quos harum.
+          I'm a web developer who loves building cool stuff for the internet. I know how to make websites look good and work smoothly using HTML, CSS, Bootstrap, and JavaScript. I also enjoy using React.js to create interactive web applications. On the backend, I'm skilled in Python, Django, and MySQL. Plus, I'm familiar with Git for version control and Vercel for deployment.I'm passionate about continuously learning and exploring new technologies in the ever-evolving field of web development.
           </p>
         </motion.div>
         

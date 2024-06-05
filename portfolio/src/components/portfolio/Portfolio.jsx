@@ -30,7 +30,7 @@ const items = [
         id:4,
         title: 'Amazon Clone',
         img: 'images/amazon.jpg',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.',
+        desc: 'Designed and developed a visually accurate single-page Amazon clone using HTML, CSS, and JavaScript. This project features a dynamic carousel and a layout that closely mimics the original Amazon website.',
         link: 'https://amazon-frontend-html-css.vercel.app/',
 
 
@@ -39,7 +39,7 @@ const items = [
         id:5,
         title: 'JS mini projects',
         img: 'images/mini-projects.jpg',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.',
+        desc: 'Its is an application showcasing 8 mini projects built with HTML, CSS, and JavaScript. Each project highlights different web development techniques, from responsive design to interactive elements, demonstrating my proficiency in front-end development.',
         link: 'https://vanilla-js-miniproject.vercel.app/',
     },
 ]

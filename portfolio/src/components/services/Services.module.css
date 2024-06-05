@@ -84,7 +84,7 @@
             height: 85%;
 
             p{
-                font-size: 20px;
+                font-size: 22px;
             }
         }
 
@@ -187,7 +187,7 @@
                 padding: 10px;
 
                 p{
-                    font-size: 18px;
+                    font-size: 20px;
                     overflow-wrap: break-word;
                 }
 
@@ -224,7 +224,7 @@
                 gap: 10px;
                 padding: 5px ;
                 p{
-                    font-size: 16px;
+                    font-size: 18px;
                 }
             }
         }
@@ -250,7 +250,7 @@
             .box{
                 gap: 10px;
                 p{
-                    font-size: 14.5px;
+                    font-size: 16px;
                 }
             }
         }
