@@ -26,7 +26,6 @@ const Contact = () => {
   const [success, setSuccess] = useState(false);
 
   const sendEmail = (e) => {
-    // e.preventDefault();
 
     emailjs
       .sendForm(

@@ -70,7 +70,7 @@ const Hero = () => {
                 <motion.h1 variants={textVariants}>Full Stack Web Developer</motion.h1>
                 <motion.div variants={textVariants} className={styles.buttons}>
                     <button  onClick={handleClickProjects}>Featured Works</button>
-                    <button>Download CV</button>
+                    <a href='resources/fathima.pdf' download="FATHIMA-RESUME.pdf"><button>Download CV</button></a>
                     
                 </motion.div>
                 <motion.div variants={textVariants} animate='scrollButton' className={styles.scrollImage}>
