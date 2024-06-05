@@ -39,7 +39,25 @@ const sliderVariants = {
 
 
 const Hero = () => {
-   
+    const handleGithubClick = () => {
+        window.open('https://github.com/Fathima28kousar', '_blank');
+    };
+
+    const handleLinkedinClick = () => {
+        window.open('https://www.linkedin.com/in/fathima-kousar-full-stack-developer', '_blank');
+    };
+
+    const handleEmailClick = () => {
+        window.open('mailto:kousar28fathima@gmail.com', '_blank');
+    };
+    
+    const handleClickProjects = () => {
+        const portfolioSection = document.getElementById('Portfolio');
+        if (portfolioSection) {
+          portfolioSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
   return (
     <div className={styles.hero}>
         <div className={styles.wrapper}>
@@ -51,13 +69,14 @@ const Hero = () => {
                 <motion.h2 variants={textVariants}>FATHIMA KOUSAR</motion.h2>
                 <motion.h1 variants={textVariants}>Full Stack Web Developer</motion.h1>
                 <motion.div variants={textVariants} className={styles.buttons}>
-                    <button>Featured Works</button>
+                    <button  onClick={handleClickProjects}>Featured Works</button>
                     <button>Download CV</button>
+                    
                 </motion.div>
                 <motion.div variants={textVariants} animate='scrollButton' className={styles.scrollImage}>
-                    <i className='fa fa-github'></i>
-                    <i className='fa fa-linkedin'></i>
-                    <i className='fa fa-envelope'></i>
+                    <i className='fa fa-github' onClick={handleGithubClick}></i>
+                    <i className='fa fa-linkedin' onClick={handleLinkedinClick}></i>
+                    <i className='fa fa-envelope' onClick={handleEmailClick}></i>
                 </motion.div>
             </motion.div>
         </div>

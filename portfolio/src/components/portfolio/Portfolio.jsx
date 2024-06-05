@@ -5,30 +5,42 @@ import {useRef} from 'react'
 const items = [
     {
         id:1,
-        title: 'React Commerce',
-        img: 'https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg?auto=compress&cs=tinysrgb&w=600',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.'
+        title: 'React Ecommerce',
+        img: 'images/organic.jpg',
+        desc: 'Organic Store is a responsive full-stack e-commerce website built using HTML, CSS, JS, React.js, and Django.It allows users to purchase organic food, with user information stored in a MySQL database on Cloud Clever. The payment integration is handled on the frontend using React.',
+        link:'https://organicstore-frontend-project.vercel.app/',
 
     },
     {
         id:2,
-        title: 'Next.js Commerce',
-        img: 'https://images.pexels.com/photos/13009437/pexels-photo-13009437.jpeg?auto=compress&cs=tinysrgb&w=600',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.'
+        title: 'Employee Management',
+        img: 'images/employee-management.jpg',
+        desc: 'Employee Management is a Django-based responsive HR application enabling CRUD operations with a user-friendly Bootstrap frontend. Utilizing MySQL on Clever Cloud, it facilitates management of employee information, including adding, updating, and deleting records, as well as viewing all employees.',
+        link: 'https://django-management-employee.vercel.app/',
 
     },
     {
         id:3,
-        title: 'Vanill js Commerce',
-        img: 'https://images.pexels.com/photos/14536809/pexels-photo-14536809.jpeg?auto=compress&cs=tinysrgb&w=600',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.'
+        title: 'React Dice game',
+        img: 'images/dice-game.jpg',
+        desc:'Presenting a dynamic Dice Game application built with React.js, HTML, CSS, and JavaScript. Users engage by selecting a number and clicking on the dice image, aiming to match the dice roll. Points are earned for correct guesses and deducted for incorrect ones. This interactive game is hosted on Vercel',
+        link:'https://dicegame-reactjs.vercel.app/',
     },
     {
         id:4,
-        title: 'Music',
-        img: 'https://media.istockphoto.com/id/1297013252/photo/music-player-on-mobile-phone-with-earphones.jpg?s=612x612&w=0&k=20&c=Y56aq0uvPe8UTYtnMzjHBNQY2WjGERO5iYta1-WwQU8=',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.'
+        title: 'Amazon Clone',
+        img: 'images/amazon.jpg',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.',
+        link: 'https://amazon-frontend-html-css.vercel.app/',
 
+
+    },
+    {
+        id:5,
+        title: 'JS mini projects',
+        img: 'images/mini-projects.jpg',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium explicabo numquam libero quasi voluptatibus tempora temporibus aspernatur dignissimos necessitatibus, consequuntur unde eaque soluta? Voluptatum at, dolores quod molestiae pariatur doloribus.',
+        link: 'https://vanilla-js-miniproject.vercel.app/',
     },
 ]
 
@@ -52,10 +64,9 @@ const Single = ({item}) => {
                     <motion.div className={styles.textContainer} style={{y}}> 
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See Demo</button>
+                        <button><a href={item.link} className={styles.link} target="_blank" rel="noopener noreferrer">See Demo</a></button>
                     </motion.div>
-              </div>
-                
+              </div>    
             </div>
         </section>
     )

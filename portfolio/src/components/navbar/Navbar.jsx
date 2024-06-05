@@ -1,12 +1,9 @@
-// import Sidebar from '../sidebar/Sidebar'
 import styles from './Navbar.module.css'
 import {motion} from 'framer-motion'
-// import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        {/* <Sidebar/> */}
       <div className={styles.wrapper}>
         <motion.h1
           initial={{opacity:0,scale:0.5}}

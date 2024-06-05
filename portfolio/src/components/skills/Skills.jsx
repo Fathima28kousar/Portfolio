@@ -14,7 +14,7 @@ const cardData = [
   { id: 8, name: 'MySQL', image: 'images/mysql.png' },
   { id: 9, name: 'MongoDB', image: 'images/mongodb.png' },
   { id: 10, name: 'Git', image: 'images/git.png' },
-  { id: 11, name:'Github', image: 'images/github.png' },
+  { id: 11, name:'Github', image: 'images/github.jpg' },
   { id: 12, name:'Vercel', image: 'images/vercel.png' },
   
 ];

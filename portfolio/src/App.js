@@ -6,8 +6,7 @@ import Navbar from './components/navbar/Navbar'
 import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
 import Skills from './components/skills/Skills'
-// import Parallax from './components/parallax/Parallax'
-// import {BrowserRouter,Route,Switch} from 'react-router-dom'
+
 
 
 
