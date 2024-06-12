@@ -1,7 +1,7 @@
 
 # Portfolio project
 
-Porfolio project built Framer Motion to create a fully responsive animation
+Porfolio project built with Framer Motion which is React library to create a fully responsive application with simple animation
 
 https://github.com/Fathima28kousar/Portfolio/assets/137386986/ed8215be-d40e-4627-9e2e-34a1e4995c32
 
